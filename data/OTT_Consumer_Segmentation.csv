@@ -1,0 +1,1001 @@
+User_ID,Age,Gender,Region,Watch_Time_per_Week,Preferred_Genre,Subscription_Type,Binge_Watching_Frequency,Platform_Usage,Monthly_Spending
+1,56,Female,North America,17,Sci-Fi,Basic,Sometimes,Disney+,2
+2,46,Male,North America,30,Sci-Fi,Free,Sometimes,HBO Max,11
+3,32,Female,Europe,13,Action,Free,Sometimes,Amazon Prime,21
+4,25,Male,South America,21,Comedy,Basic,Rarely,Netflix,16
+5,38,Female,Africa,19,Horror,Premium,Sometimes,Hulu,3
+6,56,Female,North America,19,Comedy,Free,Rarely,Amazon Prime,16
+7,36,Female,Europe,25,Comedy,Premium,Often,HBO Max,13
+8,40,Female,Europe,22,Sci-Fi,Basic,Often,Disney+,18
+9,28,Female,Europe,31,Comedy,Basic,Often,Netflix,8
+10,28,Other,South America,17,Romance,Basic,Often,Disney+,29
+11,41,Male,Africa,23,Comedy,Free,Sometimes,Hulu,29
+12,53,Male,South America,32,Romance,Free,Often,Amazon Prime,20
+13,57,Male,Asia,10,Horror,Basic,Sometimes,Amazon Prime,11
+14,41,Male,Europe,10,Sci-Fi,Basic,Sometimes,HBO Max,4
+15,20,Female,Asia,36,Comedy,Premium,Sometimes,Amazon Prime,10
+16,39,Other,North America,8,Romance,Basic,Sometimes,Netflix,19
+17,19,Male,North America,20,Romance,Free,Often,Hulu,2
+18,41,Male,South America,32,Romance,Premium,Sometimes,Disney+,20
+19,47,Male,Africa,14,Drama,Free,Sometimes,Hulu,14
+20,55,Female,Asia,28,Action,Basic,Often,Amazon Prime,13
+21,19,Female,Africa,24,Horror,Basic,Rarely,Disney+,10
+22,38,Male,South America,15,Comedy,Premium,Sometimes,HBO Max,19
+23,50,Other,North America,22,Drama,Premium,Often,Hulu,7
+24,29,Female,Africa,30,Comedy,Basic,Sometimes,Disney+,3
+25,39,Male,Africa,4,Comedy,Basic,Sometimes,Disney+,26
+26,42,Female,North America,13,Sci-Fi,Premium,Sometimes,Disney+,11
+27,44,Female,Asia,23,Sci-Fi,Free,Sometimes,Netflix,7
+28,59,Male,North America,8,Sci-Fi,Free,Often,Hulu,5
+29,45,Male,Africa,18,Drama,Free,Sometimes,Disney+,14
+30,33,Male,Asia,12,Comedy,Free,Sometimes,Hulu,29
+31,32,Male,Asia,31,Action,Basic,Rarely,Disney+,11
+32,20,Female,North America,14,Horror,Basic,Rarely,HBO Max,15
+33,54,Other,Africa,34,Sci-Fi,Basic,Often,HBO Max,15
+34,24,Male,South America,18,Sci-Fi,Free,Sometimes,HBO Max,26
+35,38,Male,Africa,34,Comedy,Premium,Sometimes,Amazon Prime,20
+36,26,Male,Europe,11,Comedy,Basic,Rarely,Disney+,19
+37,56,Male,South America,12,Drama,Basic,Sometimes,Amazon Prime,19
+38,35,Female,Asia,15,Drama,Basic,Often,Hulu,27
+39,21,Male,South America,31,Sci-Fi,Basic,Sometimes,Amazon Prime,3
+40,42,Male,Asia,29,Comedy,Free,Rarely,Hulu,10
+41,31,Male,Asia,26,Action,Free,Sometimes,Hulu,12
+42,26,Female,South America,18,Horror,Premium,Often,Hulu,28
+43,43,Male,Asia,32,Comedy,Premium,Sometimes,Amazon Prime,8
+44,19,Female,Asia,22,Comedy,Basic,Often,Disney+,3
+45,37,Male,Europe,38,Romance,Free,Sometimes,Amazon Prime,11
+46,45,Female,Africa,17,Drama,Basic,Often,Disney+,8
+47,24,Female,Africa,23,Horror,Premium,Sometimes,Disney+,12
+48,25,Male,Europe,24,Sci-Fi,Premium,Rarely,Hulu,15
+49,52,Male,South America,8,Comedy,Free,Sometimes,Amazon Prime,25
+50,31,Female,North America,6,Sci-Fi,Free,Sometimes,Disney+,5
+51,34,Other,North America,5,Comedy,Premium,Often,HBO Max,9
+52,53,Female,North America,29,Sci-Fi,Basic,Often,Disney+,12
+53,57,Female,Europe,28,Horror,Free,Sometimes,HBO Max,6
+54,21,Other,Europe,11,Drama,Free,Sometimes,Amazon Prime,27
+55,19,Female,Asia,1,Horror,Basic,Rarely,Amazon Prime,25
+56,23,Male,North America,19,Romance,Premium,Often,Amazon Prime,18
+57,59,Other,South America,9,Action,Premium,Sometimes,Disney+,23
+58,21,Male,South America,27,Drama,Basic,Sometimes,Netflix,18
+59,46,Female,North America,34,Horror,Basic,Sometimes,Disney+,16
+60,35,Male,North America,4,Romance,Free,Rarely,Disney+,12
+61,43,Male,North America,36,Action,Basic,Sometimes,Hulu,12
+62,51,Male,Europe,18,Romance,Basic,Sometimes,Hulu,25
+63,27,Female,Europe,15,Comedy,Basic,Rarely,Disney+,27
+64,53,Male,Europe,13,Comedy,Basic,Often,HBO Max,20
+65,31,Male,Africa,19,Sci-Fi,Free,Sometimes,Hulu,1
+66,48,Male,South America,6,Drama,Free,Rarely,Disney+,9
+67,32,Female,South America,12,Comedy,Basic,Sometimes,Netflix,29
+68,25,Other,Asia,37,Romance,Free,Often,HBO Max,21
+69,31,Female,Europe,17,Drama,Free,Sometimes,Amazon Prime,12
+70,40,Female,Africa,23,Comedy,Premium,Sometimes,Disney+,25
+71,57,Female,Africa,26,Sci-Fi,Basic,Rarely,Disney+,8
+72,38,Female,South America,29,Horror,Basic,Rarely,HBO Max,0
+73,33,Male,Europe,33,Sci-Fi,Premium,Sometimes,Hulu,13
+74,35,Male,Asia,27,Action,Premium,Often,Hulu,28
+75,41,Male,Europe,25,Comedy,Basic,Often,Hulu,15
+76,43,Male,North America,10,Action,Premium,Rarely,Amazon Prime,19
+77,42,Male,Europe,23,Action,Basic,Sometimes,HBO Max,14
+78,58,Female,North America,21,Romance,Basic,Often,HBO Max,0
+79,46,Male,North America,21,Drama,Basic,Sometimes,Hulu,16
+80,32,Female,Asia,13,Romance,Basic,Often,Hulu,23
+81,18,Female,South America,37,Comedy,Basic,Rarely,Netflix,29
+82,42,Male,Europe,33,Action,Basic,Often,Netflix,29
+83,24,Female,North America,24,Horror,Free,Often,Disney+,12
+84,26,Female,Europe,11,Action,Basic,Often,Disney+,29
+85,41,Male,South America,17,Horror,Free,Sometimes,HBO Max,26
+86,18,Female,South America,4,Romance,Basic,Sometimes,HBO Max,14
+87,25,Female,Africa,25,Romance,Basic,Often,Amazon Prime,15
+88,41,Female,South America,30,Drama,Premium,Sometimes,Amazon Prime,15
+89,28,Female,Asia,9,Action,Premium,Sometimes,Netflix,1
+90,34,Female,North America,21,Sci-Fi,Premium,Often,Disney+,16
+91,25,Female,Africa,20,Romance,Basic,Often,Netflix,10
+92,52,Male,Asia,19,Romance,Premium,Often,Netflix,7
+93,52,Male,Europe,19,Drama,Basic,Sometimes,Disney+,19
+94,50,Male,North America,12,Horror,Free,Often,Amazon Prime,2
+95,22,Female,South America,37,Drama,Free,Often,Disney+,28
+96,59,Male,North America,17,Action,Free,Rarely,Hulu,11
+97,56,Female,Europe,37,Comedy,Basic,Sometimes,Hulu,19
+98,58,Female,Africa,39,Comedy,Basic,Sometimes,Hulu,15
+99,45,Female,Africa,28,Horror,Premium,Sometimes,HBO Max,13
+100,24,Other,Africa,35,Romance,Free,Often,Amazon Prime,15
+101,26,Female,South America,18,Horror,Free,Sometimes,Amazon Prime,26
+102,25,Female,Asia,14,Romance,Premium,Often,HBO Max,20
+103,29,Male,Asia,35,Romance,Free,Often,Netflix,16
+104,51,Female,North America,7,Comedy,Basic,Sometimes,Hulu,29
+105,50,Male,South America,13,Horror,Basic,Often,Hulu,10
+106,40,Male,Africa,18,Drama,Basic,Sometimes,Netflix,16
+107,41,Female,Africa,37,Romance,Free,Often,Disney+,18
+108,54,Female,Europe,13,Sci-Fi,Free,Rarely,Disney+,21
+109,52,Male,Europe,36,Sci-Fi,Free,Often,Amazon Prime,0
+110,57,Female,Africa,31,Drama,Basic,Sometimes,HBO Max,29
+111,39,Female,Africa,2,Sci-Fi,Basic,Sometimes,Amazon Prime,26
+112,44,Female,South America,16,Action,Free,Often,Disney+,11
+113,52,Female,Asia,9,Romance,Basic,Sometimes,Netflix,14
+114,18,Female,Europe,9,Drama,Premium,Sometimes,Amazon Prime,17
+115,52,Other,Asia,38,Horror,Free,Sometimes,Hulu,27
+116,54,Female,South America,11,Romance,Basic,Often,Hulu,29
+117,31,Female,Africa,22,Drama,Basic,Sometimes,Netflix,22
+118,20,Other,Asia,33,Comedy,Free,Rarely,Disney+,13
+119,18,Other,Africa,36,Horror,Basic,Sometimes,Hulu,29
+120,22,Male,Africa,23,Comedy,Basic,Sometimes,Hulu,0
+121,43,Male,North America,34,Romance,Premium,Rarely,HBO Max,12
+122,31,Male,Asia,9,Horror,Premium,Sometimes,Amazon Prime,29
+123,56,Male,Asia,24,Sci-Fi,Basic,Sometimes,Disney+,14
+124,44,Female,Africa,8,Drama,Premium,Rarely,Amazon Prime,6
+125,26,Female,South America,7,Romance,Basic,Sometimes,Disney+,14
+126,32,Female,North America,36,Action,Basic,Often,Hulu,19
+127,32,Male,Africa,18,Horror,Basic,Rarely,HBO Max,9
+128,43,Female,Europe,3,Horror,Free,Sometimes,Amazon Prime,13
+129,59,Female,Europe,28,Romance,Premium,Sometimes,Hulu,5
+130,30,Female,North America,6,Romance,Basic,Sometimes,Disney+,13
+131,49,Other,South America,21,Comedy,Basic,Often,Amazon Prime,23
+132,56,Female,Africa,28,Sci-Fi,Premium,Sometimes,Amazon Prime,24
+133,49,Male,Asia,1,Comedy,Free,Sometimes,Hulu,21
+134,21,Female,North America,36,Comedy,Basic,Rarely,Amazon Prime,11
+135,47,Male,South America,21,Sci-Fi,Free,Sometimes,HBO Max,10
+136,54,Male,Asia,35,Action,Premium,Sometimes,HBO Max,28
+137,40,Female,Europe,13,Comedy,Premium,Rarely,Hulu,29
+138,56,Male,Europe,10,Comedy,Basic,Sometimes,Disney+,24
+139,32,Female,Asia,10,Horror,Basic,Often,Hulu,19
+140,46,Male,North America,13,Sci-Fi,Basic,Sometimes,HBO Max,21
+141,53,Female,Europe,37,Drama,Premium,Sometimes,Netflix,23
+142,30,Male,Africa,38,Action,Basic,Often,Netflix,24
+143,49,Other,Asia,24,Action,Basic,Often,Amazon Prime,18
+144,24,Female,Asia,2,Sci-Fi,Premium,Sometimes,Amazon Prime,1
+145,39,Male,Europe,22,Romance,Free,Often,Netflix,21
+146,45,Female,North America,17,Romance,Free,Often,HBO Max,19
+147,19,Other,Africa,36,Horror,Basic,Sometimes,Amazon Prime,0
+148,59,Female,North America,14,Horror,Premium,Sometimes,Hulu,7
+149,23,Male,South America,10,Sci-Fi,Basic,Sometimes,Hulu,24
+150,45,Female,South America,35,Horror,Free,Often,HBO Max,13
+151,45,Female,Europe,25,Action,Basic,Sometimes,Amazon Prime,8
+152,37,Female,Europe,3,Action,Basic,Rarely,Hulu,1
+153,47,Female,Europe,38,Drama,Free,Often,Amazon Prime,24
+154,28,Male,South America,17,Romance,Basic,Sometimes,Amazon Prime,22
+155,45,Male,North America,12,Sci-Fi,Premium,Rarely,Hulu,4
+156,42,Female,North America,24,Comedy,Basic,Sometimes,Netflix,22
+157,56,Male,Europe,29,Romance,Basic,Sometimes,Hulu,28
+158,50,Male,Africa,25,Comedy,Basic,Often,HBO Max,24
+159,18,Other,North America,36,Drama,Free,Sometimes,Disney+,7
+160,44,Female,South America,26,Drama,Premium,Often,Hulu,15
+161,30,Female,Asia,38,Horror,Basic,Sometimes,Amazon Prime,21
+162,58,Female,Asia,1,Drama,Basic,Rarely,Amazon Prime,15
+163,20,Female,Asia,20,Drama,Basic,Often,Hulu,12
+164,56,Female,Africa,28,Comedy,Basic,Sometimes,Disney+,19
+165,23,Female,Europe,16,Horror,Basic,Sometimes,Hulu,28
+166,25,Male,South America,17,Drama,Free,Sometimes,Disney+,14
+167,44,Male,Africa,28,Romance,Premium,Often,Disney+,0
+168,26,Female,South America,12,Drama,Premium,Sometimes,HBO Max,21
+169,54,Female,South America,27,Horror,Basic,Rarely,Amazon Prime,2
+170,50,Male,Europe,30,Sci-Fi,Premium,Rarely,Amazon Prime,5
+171,59,Male,Asia,34,Horror,Free,Sometimes,Disney+,21
+172,41,Male,Europe,37,Comedy,Basic,Often,Amazon Prime,13
+173,32,Male,Africa,6,Sci-Fi,Basic,Sometimes,Netflix,3
+174,49,Female,Africa,7,Romance,Basic,Sometimes,Disney+,17
+175,49,Male,Africa,32,Action,Basic,Rarely,Amazon Prime,14
+176,41,Female,Europe,32,Horror,Basic,Sometimes,Netflix,8
+177,58,Female,South America,25,Comedy,Free,Often,HBO Max,17
+178,29,Female,South America,33,Romance,Basic,Sometimes,Amazon Prime,2
+179,56,Female,North America,7,Sci-Fi,Free,Often,Netflix,9
+180,19,Male,Africa,12,Romance,Premium,Sometimes,Hulu,16
+181,20,Female,South America,16,Horror,Free,Rarely,Hulu,6
+182,54,Male,North America,16,Drama,Free,Often,Netflix,14
+183,34,Male,South America,36,Horror,Basic,Sometimes,Disney+,0
+184,19,Other,Africa,13,Action,Basic,Often,Disney+,26
+185,19,Male,Asia,7,Horror,Premium,Often,Amazon Prime,24
+186,45,Male,Africa,36,Sci-Fi,Basic,Rarely,Hulu,26
+187,40,Female,Europe,9,Sci-Fi,Basic,Rarely,Disney+,10
+188,54,Male,South America,32,Horror,Premium,Often,Disney+,16
+189,49,Female,South America,11,Sci-Fi,Basic,Sometimes,Hulu,4
+190,50,Male,Europe,8,Drama,Free,Rarely,HBO Max,6
+191,18,Other,Europe,33,Romance,Basic,Rarely,Disney+,18
+192,36,Female,Asia,23,Horror,Premium,Rarely,Netflix,24
+193,19,Female,South America,25,Drama,Basic,Often,Amazon Prime,23
+194,43,Other,South America,8,Romance,Free,Rarely,Disney+,28
+195,49,Male,Asia,22,Romance,Free,Sometimes,Disney+,14
+196,23,Other,North America,4,Drama,Free,Sometimes,HBO Max,2
+197,49,Male,Asia,3,Comedy,Basic,Sometimes,Netflix,14
+198,21,Female,Africa,29,Horror,Basic,Rarely,Amazon Prime,4
+199,28,Male,South America,29,Romance,Free,Often,Disney+,22
+200,34,Female,Europe,34,Romance,Premium,Rarely,Amazon Prime,11
+201,55,Male,Africa,34,Sci-Fi,Premium,Often,Hulu,29
+202,41,Female,South America,28,Romance,Basic,Often,Disney+,19
+203,22,Female,Asia,13,Drama,Premium,Sometimes,Disney+,4
+204,51,Other,Africa,15,Romance,Free,Sometimes,Hulu,2
+205,23,Male,South America,23,Comedy,Basic,Sometimes,HBO Max,8
+206,39,Female,North America,26,Horror,Basic,Sometimes,Disney+,25
+207,28,Female,North America,4,Horror,Premium,Often,Amazon Prime,8
+208,33,Male,Europe,26,Romance,Premium,Often,Netflix,6
+209,50,Male,South America,9,Action,Free,Sometimes,Amazon Prime,25
+210,26,Male,North America,5,Action,Premium,Sometimes,HBO Max,1
+211,23,Female,Asia,32,Drama,Free,Often,Netflix,22
+212,33,Female,South America,20,Action,Premium,Often,Amazon Prime,22
+213,46,Female,Asia,11,Drama,Premium,Sometimes,Amazon Prime,26
+214,20,Male,Asia,15,Sci-Fi,Free,Sometimes,Hulu,20
+215,37,Male,North America,32,Drama,Premium,Sometimes,HBO Max,15
+216,53,Male,South America,28,Action,Free,Often,Hulu,8
+217,36,Other,Africa,22,Romance,Basic,Rarely,Netflix,12
+218,43,Male,North America,17,Sci-Fi,Basic,Sometimes,Hulu,27
+219,20,Male,North America,26,Action,Basic,Sometimes,HBO Max,26
+220,36,Male,South America,7,Drama,Premium,Sometimes,Disney+,18
+221,37,Female,South America,26,Comedy,Basic,Sometimes,Disney+,19
+222,49,Other,Asia,25,Horror,Basic,Often,Netflix,16
+223,24,Female,South America,10,Action,Premium,Rarely,Disney+,5
+224,58,Female,Asia,19,Drama,Premium,Sometimes,Hulu,3
+225,50,Female,North America,11,Sci-Fi,Free,Rarely,Netflix,0
+226,57,Male,Europe,13,Action,Premium,Rarely,HBO Max,17
+227,56,Other,Africa,8,Action,Free,Sometimes,Netflix,18
+228,35,Female,North America,4,Horror,Premium,Sometimes,Netflix,8
+229,57,Female,South America,31,Drama,Free,Sometimes,Amazon Prime,12
+230,18,Female,Africa,28,Comedy,Free,Sometimes,Amazon Prime,7
+231,28,Female,Europe,11,Sci-Fi,Basic,Rarely,Netflix,22
+232,45,Female,Europe,1,Drama,Basic,Sometimes,Disney+,12
+233,42,Other,Asia,38,Sci-Fi,Basic,Often,Amazon Prime,14
+234,40,Other,Africa,24,Action,Free,Often,HBO Max,10
+235,48,Female,Asia,31,Horror,Basic,Sometimes,Hulu,11
+236,47,Female,North America,26,Horror,Premium,Sometimes,Amazon Prime,13
+237,59,Male,Africa,5,Romance,Basic,Often,Netflix,3
+238,52,Female,North America,20,Comedy,Free,Rarely,Disney+,0
+239,24,Male,Asia,11,Horror,Basic,Often,Hulu,23
+240,33,Female,Africa,33,Action,Free,Often,Amazon Prime,3
+241,43,Other,Asia,38,Comedy,Premium,Rarely,Disney+,18
+242,19,Female,Africa,27,Drama,Premium,Rarely,Disney+,8
+243,18,Female,Asia,34,Horror,Basic,Often,Disney+,9
+244,29,Male,Europe,15,Comedy,Basic,Sometimes,Netflix,3
+245,22,Male,Asia,32,Action,Premium,Rarely,HBO Max,19
+246,54,Female,Europe,21,Romance,Basic,Sometimes,Disney+,29
+247,49,Male,Asia,5,Sci-Fi,Premium,Sometimes,Hulu,8
+248,26,Male,Africa,6,Sci-Fi,Basic,Sometimes,Amazon Prime,12
+249,58,Male,Africa,38,Action,Premium,Often,Hulu,11
+250,52,Female,Africa,22,Action,Basic,Often,Netflix,10
+251,36,Female,South America,18,Sci-Fi,Basic,Sometimes,Netflix,11
+252,33,Male,North America,14,Romance,Premium,Sometimes,Hulu,29
+253,20,Female,Africa,10,Comedy,Basic,Sometimes,HBO Max,17
+254,37,Female,Europe,13,Sci-Fi,Basic,Sometimes,Netflix,29
+255,41,Female,Africa,31,Action,Free,Rarely,Netflix,11
+256,50,Female,South America,30,Horror,Basic,Often,Hulu,15
+257,41,Male,Europe,3,Drama,Basic,Often,Netflix,4
+258,28,Female,South America,30,Romance,Free,Sometimes,HBO Max,19
+259,25,Female,Europe,6,Romance,Free,Sometimes,HBO Max,24
+260,53,Female,Asia,29,Horror,Basic,Sometimes,HBO Max,11
+261,55,Female,North America,8,Horror,Premium,Sometimes,Amazon Prime,20
+262,57,Male,North America,33,Action,Basic,Sometimes,HBO Max,24
+263,37,Male,South America,17,Sci-Fi,Free,Sometimes,HBO Max,10
+264,52,Female,North America,11,Comedy,Basic,Often,Amazon Prime,8
+265,42,Female,South America,13,Romance,Free,Sometimes,Disney+,29
+266,52,Female,South America,11,Romance,Basic,Sometimes,Netflix,17
+267,42,Female,South America,31,Horror,Free,Often,HBO Max,29
+268,46,Female,North America,28,Sci-Fi,Free,Rarely,Netflix,24
+269,35,Female,South America,6,Romance,Free,Sometimes,Hulu,2
+270,35,Male,North America,16,Comedy,Basic,Sometimes,Netflix,19
+271,19,Female,South America,4,Horror,Free,Sometimes,Amazon Prime,16
+272,52,Male,Africa,35,Comedy,Basic,Often,Netflix,13
+273,33,Female,South America,26,Sci-Fi,Basic,Sometimes,Netflix,0
+274,58,Other,Europe,12,Romance,Basic,Often,Netflix,16
+275,53,Male,South America,11,Drama,Basic,Sometimes,Disney+,24
+276,50,Male,Asia,37,Romance,Premium,Sometimes,Disney+,26
+277,21,Male,South America,25,Sci-Fi,Free,Often,Hulu,7
+278,50,Other,Europe,18,Romance,Basic,Sometimes,Amazon Prime,4
+279,31,Male,Europe,19,Romance,Free,Sometimes,Netflix,4
+280,38,Male,North America,23,Action,Free,Sometimes,Netflix,8
+281,37,Male,Africa,38,Romance,Basic,Sometimes,Netflix,2
+282,25,Male,South America,18,Romance,Basic,Rarely,Netflix,18
+283,24,Male,North America,26,Comedy,Premium,Sometimes,Disney+,22
+284,20,Female,Africa,6,Drama,Basic,Sometimes,Hulu,8
+285,34,Female,South America,4,Comedy,Premium,Sometimes,HBO Max,21
+286,50,Male,Asia,29,Comedy,Free,Often,Amazon Prime,29
+287,29,Male,South America,34,Horror,Free,Sometimes,Netflix,17
+288,39,Male,Europe,17,Action,Free,Often,Hulu,15
+289,39,Male,Europe,16,Comedy,Free,Rarely,HBO Max,0
+290,47,Female,Asia,2,Sci-Fi,Basic,Sometimes,Hulu,1
+291,55,Female,North America,34,Sci-Fi,Basic,Often,Disney+,13
+292,55,Male,Africa,8,Romance,Free,Sometimes,HBO Max,13
+293,25,Female,South America,13,Horror,Premium,Often,Hulu,0
+294,44,Male,Europe,8,Action,Premium,Sometimes,Disney+,25
+295,44,Female,North America,30,Action,Free,Rarely,Hulu,25
+296,51,Female,Asia,32,Romance,Free,Sometimes,Hulu,24
+297,38,Female,Europe,36,Sci-Fi,Free,Sometimes,HBO Max,15
+298,47,Male,Asia,30,Drama,Free,Often,Disney+,14
+299,50,Other,South America,1,Horror,Free,Sometimes,Netflix,25
+300,45,Male,Africa,39,Romance,Basic,Often,Amazon Prime,14
+301,50,Male,Europe,17,Horror,Free,Often,HBO Max,11
+302,22,Male,Europe,20,Sci-Fi,Basic,Sometimes,Disney+,15
+303,36,Male,South America,24,Sci-Fi,Premium,Sometimes,Hulu,13
+304,21,Other,North America,22,Drama,Basic,Often,Disney+,28
+305,52,Female,Africa,29,Drama,Premium,Often,Amazon Prime,23
+306,34,Male,Europe,22,Action,Free,Sometimes,Amazon Prime,14
+307,45,Female,Africa,9,Horror,Basic,Sometimes,Netflix,22
+308,47,Other,Europe,37,Horror,Basic,Sometimes,Netflix,14
+309,46,Female,Africa,10,Sci-Fi,Free,Sometimes,Amazon Prime,18
+310,23,Female,Asia,36,Action,Free,Sometimes,HBO Max,7
+311,52,Other,Europe,37,Romance,Basic,Often,HBO Max,1
+312,58,Other,Africa,28,Horror,Basic,Rarely,Hulu,1
+313,54,Female,North America,28,Action,Basic,Rarely,Netflix,26
+314,41,Male,Asia,21,Action,Basic,Sometimes,Hulu,9
+315,46,Male,Asia,24,Sci-Fi,Basic,Sometimes,Netflix,2
+316,48,Female,North America,2,Action,Free,Sometimes,Amazon Prime,22
+317,52,Male,Africa,8,Drama,Basic,Sometimes,HBO Max,16
+318,50,Female,South America,27,Drama,Free,Sometimes,HBO Max,7
+319,38,Male,North America,22,Comedy,Free,Rarely,Amazon Prime,27
+320,49,Male,Africa,37,Sci-Fi,Premium,Sometimes,Hulu,22
+321,40,Male,North America,27,Romance,Basic,Often,Hulu,3
+322,50,Male,North America,29,Comedy,Premium,Sometimes,Disney+,13
+323,20,Other,Europe,3,Drama,Basic,Sometimes,Netflix,20
+324,35,Female,Africa,13,Comedy,Basic,Sometimes,Hulu,9
+325,42,Female,South America,10,Sci-Fi,Free,Often,Amazon Prime,28
+326,59,Female,Europe,36,Sci-Fi,Free,Sometimes,Hulu,0
+327,48,Male,North America,9,Action,Free,Sometimes,HBO Max,3
+328,20,Female,North America,27,Horror,Premium,Often,Netflix,0
+329,57,Female,North America,34,Action,Basic,Sometimes,Disney+,16
+330,41,Female,Africa,1,Sci-Fi,Basic,Rarely,Netflix,25
+331,49,Male,Africa,32,Drama,Basic,Sometimes,HBO Max,16
+332,39,Female,Europe,25,Romance,Premium,Rarely,HBO Max,6
+333,40,Female,South America,29,Drama,Free,Sometimes,HBO Max,22
+334,19,Other,Europe,7,Action,Free,Often,HBO Max,19
+335,44,Female,Asia,3,Romance,Basic,Sometimes,Amazon Prime,14
+336,59,Female,North America,20,Sci-Fi,Premium,Often,Disney+,12
+337,19,Female,North America,20,Drama,Premium,Rarely,HBO Max,27
+338,43,Female,North America,30,Sci-Fi,Free,Often,HBO Max,1
+339,34,Male,Europe,35,Romance,Premium,Sometimes,Hulu,27
+340,57,Female,Europe,35,Romance,Premium,Sometimes,Disney+,18
+341,50,Female,North America,39,Drama,Free,Rarely,Netflix,23
+342,26,Female,Europe,27,Sci-Fi,Basic,Often,Disney+,12
+343,56,Male,Africa,26,Comedy,Basic,Rarely,Disney+,23
+344,46,Male,Africa,14,Sci-Fi,Premium,Rarely,Disney+,10
+345,59,Female,Europe,17,Romance,Free,Sometimes,HBO Max,26
+346,43,Male,North America,18,Sci-Fi,Premium,Sometimes,HBO Max,21
+347,52,Female,Europe,29,Action,Basic,Sometimes,Amazon Prime,14
+348,42,Male,Europe,20,Comedy,Premium,Rarely,Netflix,9
+349,41,Male,Europe,27,Horror,Basic,Sometimes,Hulu,8
+350,30,Other,Asia,18,Action,Basic,Sometimes,Disney+,26
+351,24,Female,Africa,4,Horror,Premium,Sometimes,Netflix,27
+352,53,Male,South America,1,Drama,Premium,Sometimes,Netflix,8
+353,37,Male,South America,1,Horror,Premium,Often,Amazon Prime,19
+354,18,Male,Asia,26,Sci-Fi,Free,Sometimes,Hulu,27
+355,25,Female,Europe,20,Horror,Basic,Sometimes,Disney+,0
+356,33,Male,Asia,23,Romance,Free,Sometimes,Hulu,16
+357,31,Female,Asia,10,Action,Basic,Often,Amazon Prime,11
+358,29,Other,North America,11,Action,Basic,Often,HBO Max,9
+359,40,Male,Africa,5,Horror,Basic,Often,Netflix,4
+360,32,Female,South America,1,Action,Basic,Sometimes,Disney+,29
+361,45,Other,Europe,17,Romance,Premium,Rarely,HBO Max,28
+362,51,Male,South America,22,Action,Free,Sometimes,Amazon Prime,17
+363,19,Female,South America,34,Horror,Basic,Sometimes,Hulu,14
+364,49,Female,Africa,29,Comedy,Basic,Sometimes,Netflix,5
+365,40,Other,South America,4,Comedy,Free,Often,Disney+,6
+366,39,Female,South America,5,Drama,Free,Often,HBO Max,16
+367,42,Female,Asia,11,Action,Premium,Often,HBO Max,5
+368,39,Female,Africa,21,Horror,Premium,Sometimes,Netflix,7
+369,39,Female,North America,35,Action,Premium,Sometimes,Hulu,11
+370,59,Female,Europe,12,Sci-Fi,Premium,Sometimes,Amazon Prime,20
+371,23,Female,South America,26,Romance,Free,Rarely,Hulu,13
+372,32,Female,Europe,19,Action,Basic,Often,Hulu,11
+373,54,Male,North America,7,Action,Basic,Rarely,Hulu,22
+374,50,Male,Europe,7,Comedy,Basic,Sometimes,Netflix,9
+375,25,Male,North America,26,Romance,Basic,Sometimes,Netflix,21
+376,22,Male,Asia,5,Horror,Basic,Sometimes,Amazon Prime,19
+377,56,Male,South America,21,Action,Basic,Often,Hulu,14
+378,21,Other,North America,14,Comedy,Basic,Sometimes,Netflix,6
+379,23,Male,Europe,4,Drama,Free,Often,Amazon Prime,25
+380,49,Female,South America,23,Romance,Basic,Sometimes,Amazon Prime,8
+381,47,Male,Asia,20,Comedy,Basic,Sometimes,Hulu,9
+382,52,Female,South America,15,Comedy,Basic,Often,Disney+,9
+383,57,Other,North America,29,Comedy,Free,Sometimes,Hulu,15
+384,33,Female,Asia,8,Action,Premium,Often,Disney+,28
+385,30,Female,Europe,19,Action,Free,Sometimes,Amazon Prime,6
+386,59,Male,Asia,39,Drama,Basic,Sometimes,Netflix,27
+387,47,Female,Asia,28,Sci-Fi,Premium,Sometimes,HBO Max,29
+388,36,Male,Africa,27,Sci-Fi,Basic,Often,Amazon Prime,4
+389,34,Other,Asia,4,Sci-Fi,Free,Rarely,Netflix,22
+390,36,Male,Asia,15,Romance,Basic,Often,Amazon Prime,2
+391,45,Female,South America,35,Romance,Basic,Sometimes,Hulu,17
+392,43,Female,Europe,37,Drama,Premium,Sometimes,Disney+,10
+393,54,Male,South America,1,Romance,Premium,Sometimes,Amazon Prime,14
+394,43,Male,South America,3,Sci-Fi,Basic,Sometimes,Netflix,20
+395,40,Male,North America,24,Sci-Fi,Basic,Sometimes,Hulu,19
+396,26,Male,South America,27,Comedy,Free,Often,HBO Max,4
+397,29,Female,Africa,36,Romance,Free,Sometimes,Hulu,23
+398,18,Male,Africa,34,Action,Basic,Sometimes,Disney+,11
+399,18,Male,North America,29,Action,Basic,Sometimes,Hulu,3
+400,51,Male,Europe,24,Comedy,Basic,Rarely,HBO Max,14
+401,49,Female,Europe,24,Comedy,Free,Sometimes,Netflix,8
+402,42,Male,South America,4,Comedy,Free,Sometimes,Amazon Prime,6
+403,57,Male,South America,3,Action,Basic,Sometimes,Disney+,9
+404,18,Male,South America,34,Sci-Fi,Free,Rarely,HBO Max,28
+405,33,Male,Europe,23,Comedy,Premium,Sometimes,Disney+,27
+406,56,Female,Asia,23,Drama,Free,Sometimes,Hulu,22
+407,22,Male,Africa,5,Comedy,Basic,Sometimes,Disney+,12
+408,39,Male,Asia,31,Horror,Premium,Sometimes,HBO Max,28
+409,46,Female,Asia,6,Comedy,Free,Rarely,Amazon Prime,7
+410,20,Female,Europe,37,Action,Basic,Often,Amazon Prime,11
+411,29,Male,Asia,10,Romance,Free,Often,Disney+,21
+412,43,Female,North America,7,Comedy,Basic,Often,Netflix,23
+413,33,Other,South America,39,Romance,Basic,Rarely,Disney+,18
+414,54,Male,North America,38,Horror,Basic,Often,Hulu,25
+415,39,Female,Africa,21,Drama,Basic,Often,Amazon Prime,25
+416,46,Female,South America,20,Romance,Premium,Often,Amazon Prime,29
+417,31,Female,Asia,3,Sci-Fi,Free,Rarely,Amazon Prime,0
+418,45,Male,Africa,22,Comedy,Free,Sometimes,Netflix,15
+419,22,Male,South America,4,Horror,Premium,Often,Netflix,21
+420,47,Female,Asia,28,Horror,Basic,Sometimes,HBO Max,16
+421,22,Other,North America,12,Romance,Premium,Sometimes,Disney+,24
+422,29,Female,South America,38,Drama,Basic,Sometimes,Disney+,29
+423,33,Male,Asia,36,Action,Premium,Sometimes,Hulu,17
+424,43,Female,North America,5,Comedy,Basic,Rarely,Amazon Prime,10
+425,43,Female,Africa,13,Horror,Premium,Sometimes,Netflix,17
+426,38,Male,Africa,23,Drama,Premium,Rarely,Hulu,6
+427,56,Male,Africa,30,Sci-Fi,Basic,Sometimes,Hulu,17
+428,53,Female,Africa,37,Horror,Free,Sometimes,Netflix,25
+429,50,Male,Europe,25,Drama,Free,Sometimes,Disney+,7
+430,47,Female,South America,27,Action,Free,Rarely,Amazon Prime,5
+431,54,Male,South America,14,Action,Free,Sometimes,Disney+,29
+432,40,Male,Europe,36,Horror,Basic,Often,Hulu,6
+433,27,Male,Asia,39,Horror,Basic,Rarely,Amazon Prime,22
+434,22,Female,Asia,16,Romance,Basic,Rarely,HBO Max,21
+435,53,Other,Africa,22,Comedy,Basic,Rarely,Hulu,9
+436,51,Male,North America,21,Drama,Basic,Often,Disney+,10
+437,48,Female,Asia,21,Horror,Free,Sometimes,Disney+,24
+438,27,Female,North America,8,Comedy,Free,Sometimes,Disney+,12
+439,36,Female,South America,16,Romance,Free,Rarely,Netflix,8
+440,49,Male,North America,31,Comedy,Basic,Sometimes,Hulu,6
+441,18,Female,South America,10,Horror,Free,Often,Amazon Prime,8
+442,22,Female,Europe,32,Action,Free,Often,Disney+,12
+443,21,Male,Europe,34,Drama,Basic,Sometimes,Disney+,25
+444,33,Male,Africa,9,Drama,Premium,Rarely,Netflix,2
+445,41,Female,Asia,17,Action,Free,Rarely,Amazon Prime,2
+446,33,Other,Africa,11,Horror,Basic,Rarely,Hulu,0
+447,19,Male,South America,32,Drama,Basic,Sometimes,HBO Max,20
+448,45,Female,Africa,10,Horror,Premium,Rarely,Netflix,19
+449,49,Other,North America,22,Romance,Premium,Sometimes,Hulu,1
+450,44,Female,South America,17,Horror,Free,Sometimes,HBO Max,24
+451,37,Other,Europe,4,Comedy,Free,Often,Disney+,2
+452,41,Female,Asia,25,Action,Premium,Sometimes,Disney+,14
+453,29,Male,South America,21,Horror,Basic,Often,Amazon Prime,23
+454,52,Male,South America,37,Romance,Basic,Often,HBO Max,5
+455,50,Male,North America,38,Sci-Fi,Basic,Rarely,Disney+,29
+456,50,Female,Asia,1,Action,Basic,Often,Disney+,12
+457,54,Female,Europe,25,Drama,Premium,Sometimes,Amazon Prime,20
+458,29,Male,South America,36,Comedy,Premium,Sometimes,Hulu,0
+459,20,Female,South America,17,Drama,Premium,Sometimes,Disney+,19
+460,18,Female,North America,24,Romance,Free,Often,Netflix,18
+461,50,Female,Africa,2,Romance,Premium,Sometimes,Netflix,0
+462,57,Female,Europe,15,Drama,Free,Sometimes,Hulu,27
+463,27,Female,Asia,32,Action,Free,Often,HBO Max,20
+464,46,Male,South America,39,Drama,Premium,Rarely,Amazon Prime,21
+465,30,Male,South America,6,Horror,Free,Sometimes,Netflix,1
+466,29,Male,Europe,1,Drama,Free,Often,Netflix,14
+467,48,Male,Africa,23,Comedy,Free,Often,Hulu,13
+468,19,Female,South America,39,Comedy,Premium,Often,HBO Max,18
+469,52,Female,Europe,17,Sci-Fi,Basic,Often,HBO Max,10
+470,40,Male,North America,34,Comedy,Basic,Rarely,Hulu,29
+471,34,Female,Africa,29,Drama,Free,Often,Netflix,14
+472,43,Male,Asia,9,Comedy,Premium,Sometimes,Amazon Prime,5
+473,25,Other,South America,13,Action,Premium,Sometimes,Netflix,19
+474,46,Other,Europe,6,Comedy,Basic,Rarely,HBO Max,8
+475,43,Male,North America,6,Horror,Basic,Sometimes,Netflix,4
+476,27,Female,Asia,20,Action,Free,Often,Amazon Prime,19
+477,43,Male,Europe,3,Sci-Fi,Premium,Often,Disney+,1
+478,51,Female,Europe,17,Horror,Basic,Sometimes,Netflix,5
+479,58,Female,Asia,12,Drama,Premium,Rarely,Hulu,25
+480,24,Male,North America,1,Drama,Basic,Sometimes,Disney+,17
+481,21,Female,North America,17,Drama,Premium,Often,Hulu,27
+482,28,Male,Africa,3,Horror,Premium,Often,Hulu,28
+483,46,Male,South America,26,Horror,Basic,Sometimes,Hulu,22
+484,53,Female,Asia,15,Horror,Premium,Rarely,Netflix,18
+485,42,Male,Asia,36,Action,Basic,Sometimes,HBO Max,8
+486,38,Female,Asia,32,Romance,Free,Sometimes,Disney+,26
+487,53,Male,North America,32,Action,Basic,Often,Amazon Prime,20
+488,27,Other,South America,4,Drama,Premium,Sometimes,HBO Max,23
+489,54,Male,Africa,18,Romance,Basic,Sometimes,Netflix,26
+490,26,Female,Europe,19,Comedy,Free,Sometimes,Hulu,5
+491,41,Female,Europe,35,Drama,Basic,Rarely,Amazon Prime,13
+492,52,Male,Asia,14,Sci-Fi,Basic,Often,Disney+,27
+493,52,Other,South America,33,Action,Basic,Sometimes,HBO Max,25
+494,53,Female,North America,14,Horror,Basic,Sometimes,HBO Max,23
+495,35,Female,South America,34,Action,Premium,Sometimes,Amazon Prime,28
+496,56,Female,South America,4,Horror,Free,Sometimes,Netflix,12
+497,49,Other,North America,24,Romance,Basic,Sometimes,Disney+,10
+498,41,Other,Asia,29,Sci-Fi,Free,Often,Amazon Prime,11
+499,40,Female,South America,19,Romance,Free,Sometimes,Hulu,18
+500,49,Female,Europe,6,Sci-Fi,Premium,Sometimes,Disney+,18
+501,54,Male,North America,33,Action,Premium,Rarely,HBO Max,20
+502,29,Male,Africa,19,Horror,Basic,Sometimes,Amazon Prime,26
+503,30,Female,Asia,1,Romance,Premium,Rarely,HBO Max,25
+504,40,Male,North America,5,Sci-Fi,Premium,Sometimes,HBO Max,18
+505,42,Female,Africa,27,Drama,Premium,Often,HBO Max,23
+506,52,Male,Africa,16,Drama,Free,Often,Netflix,25
+507,58,Male,South America,6,Romance,Premium,Sometimes,HBO Max,12
+508,47,Female,South America,13,Horror,Basic,Sometimes,Hulu,27
+509,34,Other,South America,35,Romance,Basic,Rarely,Hulu,13
+510,37,Male,North America,19,Action,Free,Sometimes,Disney+,23
+511,42,Female,North America,12,Sci-Fi,Basic,Often,HBO Max,17
+512,39,Female,Asia,16,Action,Free,Sometimes,HBO Max,11
+513,30,Male,South America,10,Drama,Free,Sometimes,Amazon Prime,3
+514,36,Female,Africa,25,Sci-Fi,Basic,Often,Netflix,9
+515,53,Male,Europe,20,Romance,Premium,Often,Disney+,28
+516,29,Male,Asia,31,Action,Premium,Sometimes,HBO Max,16
+517,58,Other,North America,4,Comedy,Basic,Sometimes,Amazon Prime,3
+518,36,Male,Asia,23,Horror,Premium,Rarely,Netflix,11
+519,29,Female,Asia,2,Horror,Premium,Rarely,Disney+,12
+520,26,Female,Asia,22,Comedy,Premium,Often,Disney+,28
+521,24,Male,Asia,37,Drama,Free,Often,HBO Max,26
+522,45,Female,Europe,8,Sci-Fi,Basic,Often,Disney+,28
+523,31,Other,South America,7,Horror,Premium,Rarely,Amazon Prime,3
+524,48,Male,Africa,14,Comedy,Basic,Often,Disney+,9
+525,36,Female,Asia,3,Romance,Basic,Sometimes,Hulu,24
+526,33,Female,Asia,16,Comedy,Basic,Sometimes,Amazon Prime,2
+527,22,Female,Asia,19,Drama,Basic,Sometimes,Netflix,14
+528,52,Female,South America,18,Drama,Basic,Rarely,Netflix,1
+529,29,Male,North America,16,Action,Free,Often,HBO Max,24
+530,42,Other,North America,8,Horror,Basic,Sometimes,HBO Max,24
+531,38,Other,Europe,33,Action,Premium,Rarely,Hulu,16
+532,53,Female,North America,12,Comedy,Premium,Rarely,Netflix,5
+533,40,Female,Asia,11,Sci-Fi,Free,Rarely,Netflix,25
+534,33,Female,Asia,5,Sci-Fi,Premium,Rarely,Netflix,7
+535,56,Female,Asia,27,Drama,Basic,Sometimes,Netflix,2
+536,59,Female,Europe,12,Sci-Fi,Basic,Often,Disney+,26
+537,56,Female,Asia,17,Sci-Fi,Premium,Rarely,Amazon Prime,24
+538,31,Female,North America,6,Sci-Fi,Premium,Rarely,Amazon Prime,17
+539,48,Female,South America,33,Comedy,Premium,Sometimes,Hulu,21
+540,22,Female,South America,5,Sci-Fi,Basic,Often,Disney+,0
+541,52,Male,Africa,28,Romance,Premium,Sometimes,Netflix,28
+542,40,Male,North America,14,Sci-Fi,Free,Sometimes,Netflix,15
+543,46,Male,Asia,5,Sci-Fi,Premium,Sometimes,HBO Max,6
+544,28,Female,South America,33,Action,Premium,Sometimes,HBO Max,2
+545,35,Female,North America,19,Comedy,Basic,Rarely,Hulu,22
+546,29,Female,South America,22,Drama,Free,Often,Netflix,3
+547,26,Female,Asia,5,Action,Premium,Sometimes,Hulu,8
+548,27,Female,South America,2,Horror,Free,Sometimes,Disney+,4
+549,34,Male,Africa,30,Comedy,Free,Often,Amazon Prime,18
+550,55,Female,Africa,39,Romance,Premium,Sometimes,Netflix,14
+551,24,Female,South America,4,Comedy,Basic,Sometimes,Disney+,7
+552,30,Female,North America,33,Horror,Premium,Sometimes,Netflix,5
+553,57,Male,North America,13,Horror,Basic,Rarely,HBO Max,17
+554,59,Male,North America,20,Horror,Free,Rarely,Hulu,18
+555,26,Male,South America,7,Drama,Premium,Sometimes,HBO Max,23
+556,44,Male,North America,15,Sci-Fi,Basic,Often,Amazon Prime,14
+557,19,Female,Asia,23,Comedy,Free,Often,HBO Max,25
+558,22,Male,Africa,14,Sci-Fi,Premium,Sometimes,Netflix,6
+559,46,Female,Asia,23,Sci-Fi,Basic,Rarely,HBO Max,9
+560,54,Female,North America,19,Romance,Basic,Rarely,Netflix,5
+561,55,Male,Asia,29,Horror,Basic,Often,Amazon Prime,13
+562,36,Male,North America,20,Drama,Premium,Sometimes,HBO Max,16
+563,25,Male,South America,29,Romance,Premium,Sometimes,Hulu,8
+564,18,Male,Asia,24,Action,Premium,Often,Hulu,18
+565,39,Male,South America,18,Drama,Free,Often,Hulu,29
+566,34,Female,South America,10,Sci-Fi,Premium,Often,HBO Max,4
+567,24,Male,Europe,8,Drama,Basic,Rarely,HBO Max,22
+568,42,Other,North America,26,Horror,Basic,Often,HBO Max,6
+569,21,Male,Africa,29,Action,Basic,Often,Netflix,18
+570,53,Female,North America,10,Horror,Premium,Sometimes,Amazon Prime,19
+571,23,Female,Africa,17,Action,Premium,Sometimes,Hulu,25
+572,48,Female,North America,2,Romance,Free,Sometimes,Netflix,6
+573,36,Female,South America,6,Sci-Fi,Basic,Often,Hulu,23
+574,56,Female,Asia,5,Action,Premium,Rarely,Netflix,1
+575,44,Female,Asia,28,Action,Free,Sometimes,HBO Max,24
+576,27,Female,Europe,5,Action,Premium,Rarely,Hulu,22
+577,43,Female,Africa,18,Drama,Basic,Often,HBO Max,15
+578,36,Male,Africa,26,Romance,Basic,Rarely,Hulu,12
+579,56,Male,Africa,20,Drama,Free,Sometimes,Disney+,7
+580,20,Female,South America,27,Sci-Fi,Free,Sometimes,Netflix,5
+581,30,Female,Africa,12,Action,Premium,Often,Disney+,5
+582,45,Female,Asia,7,Romance,Free,Sometimes,Netflix,8
+583,37,Female,South America,3,Romance,Premium,Rarely,Amazon Prime,3
+584,45,Other,North America,10,Comedy,Basic,Often,Hulu,26
+585,25,Male,Africa,34,Sci-Fi,Free,Sometimes,Amazon Prime,10
+586,58,Male,Africa,25,Romance,Free,Often,Amazon Prime,4
+587,56,Male,North America,35,Action,Basic,Rarely,Netflix,24
+588,18,Female,Africa,16,Action,Premium,Sometimes,Disney+,16
+589,20,Female,North America,2,Romance,Basic,Sometimes,HBO Max,19
+590,30,Male,South America,24,Drama,Basic,Rarely,Netflix,6
+591,45,Female,Asia,10,Sci-Fi,Basic,Sometimes,HBO Max,26
+592,42,Male,North America,38,Action,Basic,Sometimes,Amazon Prime,14
+593,50,Female,Europe,22,Romance,Basic,Often,HBO Max,24
+594,55,Female,North America,26,Action,Premium,Sometimes,Disney+,14
+595,23,Male,Africa,39,Romance,Basic,Sometimes,Netflix,13
+596,49,Female,South America,27,Sci-Fi,Basic,Sometimes,Disney+,12
+597,38,Male,South America,29,Romance,Free,Often,Disney+,10
+598,33,Male,North America,38,Comedy,Premium,Sometimes,Netflix,27
+599,38,Male,Asia,20,Romance,Free,Sometimes,Disney+,12
+600,28,Male,Europe,27,Romance,Free,Sometimes,Hulu,25
+601,54,Male,South America,20,Sci-Fi,Basic,Sometimes,Hulu,21
+602,53,Female,Africa,19,Romance,Basic,Sometimes,Hulu,27
+603,52,Female,Africa,20,Sci-Fi,Basic,Often,HBO Max,23
+604,36,Female,Asia,35,Comedy,Basic,Sometimes,Disney+,28
+605,37,Male,South America,2,Sci-Fi,Premium,Often,Netflix,8
+606,35,Female,North America,30,Action,Free,Rarely,Netflix,9
+607,58,Male,Africa,34,Sci-Fi,Premium,Sometimes,HBO Max,3
+608,31,Male,Asia,22,Comedy,Basic,Often,Netflix,16
+609,32,Female,South America,3,Horror,Basic,Rarely,Hulu,13
+610,48,Male,South America,6,Romance,Basic,Often,Disney+,23
+611,18,Female,South America,15,Sci-Fi,Free,Sometimes,Netflix,17
+612,20,Female,South America,27,Romance,Premium,Often,Netflix,10
+613,33,Male,South America,10,Drama,Basic,Sometimes,Amazon Prime,15
+614,40,Male,Africa,9,Action,Basic,Sometimes,Amazon Prime,0
+615,28,Male,Asia,33,Action,Basic,Rarely,Amazon Prime,28
+616,29,Female,South America,32,Drama,Premium,Sometimes,Disney+,6
+617,27,Male,Europe,6,Drama,Basic,Rarely,Hulu,27
+618,49,Male,Europe,36,Sci-Fi,Premium,Rarely,Hulu,9
+619,33,Male,Asia,2,Drama,Basic,Rarely,Hulu,8
+620,25,Female,North America,29,Horror,Free,Sometimes,Disney+,26
+621,55,Male,North America,4,Romance,Free,Often,Disney+,27
+622,29,Male,North America,1,Romance,Basic,Rarely,Amazon Prime,27
+623,41,Female,Europe,19,Comedy,Free,Rarely,Netflix,24
+624,45,Other,North America,26,Drama,Free,Sometimes,HBO Max,2
+625,25,Male,Africa,25,Drama,Premium,Rarely,HBO Max,21
+626,45,Male,South America,10,Horror,Premium,Rarely,Netflix,22
+627,53,Male,Europe,15,Action,Premium,Rarely,Amazon Prime,13
+628,43,Female,Asia,22,Action,Free,Often,Netflix,25
+629,25,Male,Asia,21,Romance,Free,Often,Netflix,24
+630,45,Female,South America,22,Romance,Free,Sometimes,HBO Max,14
+631,45,Female,Europe,36,Sci-Fi,Premium,Sometimes,Amazon Prime,1
+632,54,Female,North America,34,Horror,Premium,Sometimes,Disney+,23
+633,58,Male,North America,30,Comedy,Basic,Sometimes,HBO Max,13
+634,53,Female,Africa,25,Comedy,Free,Sometimes,Disney+,15
+635,44,Female,Africa,28,Horror,Basic,Sometimes,Amazon Prime,6
+636,34,Female,North America,1,Comedy,Basic,Sometimes,Netflix,3
+637,26,Male,Asia,4,Action,Basic,Rarely,Hulu,17
+638,50,Other,Asia,7,Comedy,Basic,Sometimes,Hulu,23
+639,37,Male,Africa,9,Comedy,Premium,Often,Amazon Prime,26
+640,30,Male,South America,36,Horror,Free,Sometimes,Hulu,4
+641,45,Male,North America,19,Horror,Free,Often,Disney+,5
+642,46,Female,Africa,1,Comedy,Premium,Often,Hulu,29
+643,30,Male,Africa,10,Drama,Free,Rarely,Amazon Prime,26
+644,52,Male,North America,36,Horror,Free,Sometimes,Amazon Prime,6
+645,23,Male,North America,9,Sci-Fi,Free,Sometimes,Disney+,14
+646,35,Male,Asia,32,Sci-Fi,Free,Often,Hulu,25
+647,22,Female,South America,32,Action,Basic,Often,Hulu,0
+648,42,Female,South America,6,Comedy,Premium,Sometimes,Netflix,23
+649,19,Male,North America,38,Drama,Basic,Sometimes,HBO Max,3
+650,27,Female,Europe,17,Action,Basic,Often,Amazon Prime,28
+651,47,Female,Africa,10,Comedy,Basic,Rarely,Netflix,24
+652,22,Male,Africa,27,Horror,Basic,Often,Amazon Prime,0
+653,50,Male,North America,35,Sci-Fi,Premium,Often,Netflix,10
+654,18,Other,Europe,21,Romance,Premium,Sometimes,HBO Max,17
+655,35,Female,Asia,25,Drama,Free,Sometimes,Netflix,13
+656,49,Male,North America,28,Romance,Premium,Sometimes,Amazon Prime,21
+657,28,Female,North America,15,Sci-Fi,Basic,Sometimes,Hulu,10
+658,38,Male,Africa,4,Romance,Premium,Sometimes,Amazon Prime,9
+659,43,Female,North America,29,Horror,Basic,Often,Disney+,26
+660,42,Male,North America,9,Comedy,Premium,Often,Disney+,29
+661,39,Male,North America,27,Horror,Premium,Often,Disney+,16
+662,44,Male,Africa,26,Romance,Free,Rarely,Disney+,3
+663,30,Other,Asia,19,Horror,Basic,Often,HBO Max,23
+664,50,Female,Asia,28,Sci-Fi,Premium,Often,Hulu,14
+665,51,Male,North America,17,Drama,Premium,Sometimes,Hulu,25
+666,58,Male,Africa,20,Horror,Free,Rarely,Amazon Prime,15
+667,52,Female,Asia,39,Sci-Fi,Premium,Sometimes,Netflix,20
+668,18,Male,Asia,23,Drama,Basic,Often,Amazon Prime,12
+669,38,Male,Asia,32,Comedy,Free,Sometimes,Amazon Prime,8
+670,23,Other,Africa,33,Romance,Basic,Often,Amazon Prime,10
+671,45,Male,Africa,5,Comedy,Free,Sometimes,Amazon Prime,10
+672,34,Female,North America,34,Action,Premium,Often,Hulu,5
+673,22,Other,South America,11,Sci-Fi,Basic,Rarely,Netflix,0
+674,48,Male,Asia,3,Drama,Premium,Sometimes,Amazon Prime,21
+675,22,Male,South America,33,Horror,Free,Sometimes,Hulu,5
+676,55,Male,Africa,11,Comedy,Basic,Rarely,Amazon Prime,12
+677,20,Female,Africa,16,Drama,Free,Often,Disney+,21
+678,40,Female,Africa,18,Sci-Fi,Free,Sometimes,Amazon Prime,23
+679,54,Female,South America,30,Action,Free,Sometimes,Amazon Prime,21
+680,54,Male,Africa,10,Comedy,Free,Sometimes,HBO Max,4
+681,27,Female,North America,18,Romance,Basic,Sometimes,Disney+,14
+682,27,Other,Africa,38,Drama,Free,Rarely,Netflix,26
+683,36,Female,Europe,19,Romance,Basic,Rarely,Amazon Prime,17
+684,34,Other,South America,36,Drama,Basic,Often,Netflix,19
+685,38,Female,Europe,13,Drama,Premium,Sometimes,Disney+,13
+686,31,Female,Africa,3,Sci-Fi,Premium,Often,Amazon Prime,14
+687,26,Female,North America,10,Sci-Fi,Basic,Often,HBO Max,25
+688,18,Male,Asia,38,Sci-Fi,Basic,Sometimes,Hulu,4
+689,30,Male,Africa,1,Horror,Free,Sometimes,HBO Max,25
+690,21,Female,North America,27,Drama,Premium,Sometimes,HBO Max,3
+691,18,Male,South America,8,Comedy,Free,Often,Hulu,1
+692,57,Female,Europe,17,Romance,Free,Often,Hulu,6
+693,49,Other,Europe,9,Sci-Fi,Free,Sometimes,Hulu,9
+694,51,Female,Europe,6,Sci-Fi,Basic,Often,Amazon Prime,15
+695,45,Male,South America,25,Romance,Free,Rarely,Netflix,9
+696,48,Male,North America,39,Romance,Premium,Often,Netflix,17
+697,25,Male,South America,28,Drama,Free,Often,Hulu,16
+698,56,Female,Europe,33,Sci-Fi,Basic,Rarely,HBO Max,29
+699,43,Female,Africa,37,Romance,Free,Sometimes,Disney+,20
+700,51,Other,Asia,9,Horror,Free,Rarely,Hulu,27
+701,20,Male,South America,18,Horror,Premium,Sometimes,HBO Max,12
+702,29,Other,South America,21,Sci-Fi,Free,Often,HBO Max,0
+703,18,Female,North America,2,Romance,Premium,Sometimes,Amazon Prime,0
+704,22,Male,North America,38,Drama,Basic,Rarely,Amazon Prime,14
+705,47,Female,South America,36,Drama,Free,Sometimes,Netflix,0
+706,47,Male,Europe,37,Drama,Premium,Often,Netflix,5
+707,34,Male,Asia,15,Action,Free,Sometimes,Disney+,24
+708,40,Female,North America,28,Sci-Fi,Premium,Sometimes,Disney+,25
+709,32,Male,Europe,18,Drama,Free,Rarely,Disney+,12
+710,54,Female,Africa,34,Horror,Premium,Often,Disney+,26
+711,38,Female,North America,22,Romance,Free,Often,HBO Max,27
+712,31,Female,Europe,11,Comedy,Basic,Sometimes,HBO Max,0
+713,19,Male,Europe,13,Comedy,Premium,Rarely,Netflix,4
+714,28,Female,Asia,4,Drama,Premium,Rarely,Amazon Prime,8
+715,56,Female,Asia,22,Comedy,Premium,Rarely,Amazon Prime,29
+716,55,Female,Africa,7,Comedy,Premium,Sometimes,Hulu,24
+717,51,Male,Europe,24,Action,Premium,Often,HBO Max,16
+718,55,Male,Europe,4,Horror,Free,Sometimes,Disney+,15
+719,51,Female,Asia,28,Horror,Free,Often,Disney+,7
+720,35,Male,North America,15,Action,Free,Sometimes,Hulu,16
+721,47,Female,North America,1,Action,Basic,Often,Amazon Prime,14
+722,32,Female,South America,3,Comedy,Basic,Often,Disney+,23
+723,44,Female,Asia,14,Sci-Fi,Basic,Rarely,Amazon Prime,0
+724,51,Female,South America,38,Romance,Free,Sometimes,Hulu,11
+725,55,Other,Asia,1,Romance,Basic,Sometimes,Amazon Prime,4
+726,50,Female,Africa,38,Comedy,Free,Rarely,Amazon Prime,23
+727,41,Other,Europe,38,Romance,Basic,Sometimes,Amazon Prime,5
+728,32,Female,Africa,21,Action,Basic,Sometimes,Disney+,24
+729,47,Male,Asia,29,Horror,Premium,Often,Netflix,0
+730,59,Male,Europe,5,Romance,Premium,Sometimes,HBO Max,24
+731,34,Female,North America,10,Comedy,Basic,Often,Amazon Prime,0
+732,22,Male,North America,28,Sci-Fi,Free,Sometimes,Amazon Prime,9
+733,46,Female,South America,21,Comedy,Basic,Often,Amazon Prime,9
+734,21,Male,Asia,7,Drama,Free,Sometimes,Netflix,2
+735,27,Female,Asia,3,Comedy,Basic,Often,Hulu,16
+736,34,Female,North America,20,Action,Basic,Sometimes,Disney+,18
+737,27,Female,Africa,19,Horror,Free,Sometimes,Netflix,27
+738,34,Female,Europe,35,Horror,Free,Sometimes,Amazon Prime,10
+739,37,Female,Africa,4,Romance,Premium,Sometimes,Netflix,28
+740,41,Male,Africa,5,Action,Premium,Rarely,Netflix,17
+741,22,Female,North America,1,Drama,Basic,Rarely,Netflix,1
+742,51,Male,North America,4,Action,Free,Rarely,Hulu,8
+743,23,Other,North America,12,Comedy,Free,Often,HBO Max,23
+744,19,Female,South America,27,Action,Basic,Sometimes,Disney+,16
+745,30,Male,Africa,23,Action,Premium,Sometimes,Hulu,27
+746,28,Male,Asia,25,Drama,Free,Often,Hulu,13
+747,40,Female,Europe,21,Comedy,Premium,Sometimes,HBO Max,3
+748,33,Male,South America,24,Sci-Fi,Free,Sometimes,Hulu,28
+749,48,Male,Asia,25,Sci-Fi,Premium,Rarely,Netflix,16
+750,28,Female,Africa,32,Horror,Basic,Often,Netflix,16
+751,33,Female,North America,32,Romance,Premium,Often,Amazon Prime,11
+752,25,Female,Africa,5,Action,Basic,Often,Hulu,27
+753,21,Other,Europe,36,Horror,Basic,Sometimes,Amazon Prime,19
+754,57,Female,South America,39,Drama,Free,Often,Disney+,17
+755,21,Female,South America,16,Sci-Fi,Free,Rarely,Netflix,2
+756,42,Male,Europe,33,Action,Premium,Rarely,Disney+,10
+757,20,Female,Asia,21,Drama,Premium,Rarely,HBO Max,24
+758,49,Male,Asia,9,Romance,Premium,Sometimes,Netflix,17
+759,20,Other,South America,6,Drama,Basic,Sometimes,Disney+,3
+760,44,Female,South America,35,Action,Premium,Sometimes,HBO Max,16
+761,46,Female,North America,39,Romance,Free,Rarely,Disney+,17
+762,49,Male,Asia,22,Drama,Basic,Sometimes,HBO Max,4
+763,36,Female,Europe,5,Romance,Basic,Often,HBO Max,13
+764,38,Female,Asia,23,Action,Basic,Sometimes,Netflix,9
+765,22,Male,North America,17,Action,Basic,Often,Amazon Prime,14
+766,35,Male,South America,12,Romance,Free,Sometimes,HBO Max,0
+767,45,Female,South America,23,Comedy,Basic,Often,HBO Max,15
+768,59,Male,North America,16,Horror,Premium,Sometimes,Netflix,10
+769,39,Other,Europe,3,Drama,Basic,Sometimes,Amazon Prime,22
+770,38,Male,South America,30,Drama,Free,Sometimes,Hulu,19
+771,23,Male,Africa,22,Comedy,Free,Sometimes,Hulu,5
+772,18,Female,South America,9,Comedy,Free,Often,Amazon Prime,23
+773,22,Male,Africa,29,Comedy,Free,Sometimes,Disney+,28
+774,58,Female,North America,37,Sci-Fi,Basic,Sometimes,Netflix,21
+775,29,Male,North America,23,Sci-Fi,Basic,Often,Amazon Prime,15
+776,43,Male,South America,13,Romance,Basic,Sometimes,Hulu,29
+777,51,Female,Asia,32,Sci-Fi,Basic,Sometimes,HBO Max,1
+778,31,Female,Africa,23,Action,Premium,Sometimes,Hulu,0
+779,43,Female,Europe,17,Romance,Free,Sometimes,HBO Max,23
+780,44,Female,South America,21,Drama,Basic,Sometimes,Netflix,23
+781,26,Female,Europe,2,Horror,Premium,Sometimes,HBO Max,8
+782,43,Male,South America,37,Action,Free,Often,Amazon Prime,21
+783,39,Male,Asia,6,Drama,Free,Sometimes,HBO Max,11
+784,47,Other,Asia,18,Drama,Premium,Sometimes,Disney+,16
+785,34,Female,Asia,30,Romance,Basic,Sometimes,Amazon Prime,29
+786,43,Female,Asia,22,Comedy,Basic,Often,Netflix,24
+787,53,Male,North America,33,Comedy,Free,Often,Amazon Prime,27
+788,18,Male,North America,30,Action,Basic,Sometimes,Disney+,28
+789,25,Female,Africa,17,Comedy,Basic,Often,Netflix,14
+790,52,Female,Europe,32,Drama,Free,Sometimes,Hulu,29
+791,32,Female,South America,14,Comedy,Basic,Sometimes,Disney+,18
+792,39,Female,South America,10,Sci-Fi,Free,Rarely,Netflix,26
+793,31,Female,North America,36,Comedy,Basic,Sometimes,HBO Max,21
+794,43,Male,South America,34,Drama,Free,Sometimes,Amazon Prime,9
+795,45,Male,North America,9,Romance,Free,Often,Netflix,28
+796,40,Male,Africa,28,Action,Free,Sometimes,Amazon Prime,25
+797,31,Male,Europe,11,Horror,Free,Often,HBO Max,26
+798,41,Female,Africa,14,Comedy,Premium,Sometimes,Netflix,11
+799,19,Female,Asia,39,Drama,Free,Sometimes,Hulu,13
+800,43,Female,Asia,19,Horror,Basic,Sometimes,Disney+,8
+801,31,Male,Asia,15,Horror,Free,Rarely,Netflix,26
+802,24,Male,Africa,28,Sci-Fi,Basic,Sometimes,HBO Max,12
+803,20,Male,South America,24,Horror,Premium,Rarely,Netflix,2
+804,40,Male,Europe,8,Romance,Free,Sometimes,Amazon Prime,20
+805,35,Female,Asia,9,Drama,Premium,Sometimes,Netflix,28
+806,55,Male,Asia,33,Drama,Free,Often,Hulu,13
+807,52,Female,Asia,33,Comedy,Premium,Sometimes,Netflix,20
+808,32,Male,Europe,19,Comedy,Basic,Rarely,Disney+,9
+809,42,Male,Asia,3,Comedy,Premium,Sometimes,Netflix,15
+810,54,Male,Europe,10,Romance,Basic,Often,Amazon Prime,6
+811,45,Female,Asia,1,Horror,Basic,Often,Netflix,3
+812,27,Female,Africa,29,Horror,Free,Sometimes,Hulu,26
+813,56,Male,Africa,34,Sci-Fi,Free,Sometimes,HBO Max,19
+814,34,Male,Europe,13,Romance,Premium,Rarely,Netflix,22
+815,56,Female,Africa,1,Comedy,Basic,Often,Netflix,24
+816,39,Male,Europe,34,Action,Basic,Sometimes,Disney+,10
+817,43,Male,Africa,29,Sci-Fi,Premium,Sometimes,Hulu,15
+818,42,Female,Africa,13,Action,Basic,Sometimes,HBO Max,19
+819,34,Female,Europe,29,Horror,Premium,Rarely,Amazon Prime,3
+820,30,Male,South America,39,Sci-Fi,Premium,Often,Netflix,21
+821,37,Other,Africa,24,Sci-Fi,Basic,Rarely,HBO Max,21
+822,42,Female,Asia,26,Drama,Premium,Sometimes,Amazon Prime,22
+823,21,Male,South America,17,Horror,Free,Sometimes,Hulu,16
+824,27,Female,Europe,7,Horror,Free,Often,Hulu,12
+825,20,Female,South America,13,Romance,Basic,Often,HBO Max,10
+826,58,Male,North America,5,Sci-Fi,Free,Sometimes,Amazon Prime,29
+827,35,Male,North America,26,Horror,Premium,Sometimes,Hulu,2
+828,53,Male,Africa,3,Sci-Fi,Premium,Often,HBO Max,8
+829,39,Female,Africa,7,Romance,Basic,Rarely,Hulu,5
+830,51,Male,Asia,39,Romance,Basic,Sometimes,Hulu,21
+831,25,Female,South America,1,Drama,Premium,Sometimes,Hulu,20
+832,57,Female,North America,17,Sci-Fi,Basic,Often,Disney+,10
+833,36,Male,Africa,25,Horror,Basic,Sometimes,Amazon Prime,15
+834,59,Female,South America,3,Horror,Basic,Often,HBO Max,18
+835,58,Male,Africa,15,Sci-Fi,Premium,Sometimes,HBO Max,26
+836,54,Female,Africa,29,Sci-Fi,Basic,Sometimes,Amazon Prime,4
+837,23,Female,North America,32,Sci-Fi,Premium,Sometimes,Amazon Prime,13
+838,43,Male,North America,26,Comedy,Premium,Sometimes,Amazon Prime,16
+839,51,Female,Africa,16,Horror,Basic,Sometimes,Amazon Prime,2
+840,23,Male,Europe,25,Romance,Basic,Sometimes,Netflix,3
+841,54,Male,Africa,28,Horror,Premium,Rarely,HBO Max,15
+842,50,Male,Africa,9,Comedy,Basic,Often,Netflix,15
+843,39,Male,Asia,1,Sci-Fi,Premium,Often,Hulu,20
+844,38,Other,Asia,29,Drama,Premium,Sometimes,Hulu,25
+845,23,Male,Asia,22,Sci-Fi,Basic,Sometimes,HBO Max,24
+846,23,Male,Europe,16,Sci-Fi,Premium,Rarely,Hulu,3
+847,21,Female,Europe,7,Comedy,Premium,Sometimes,Amazon Prime,18
+848,47,Male,Africa,14,Horror,Premium,Often,Netflix,25
+849,28,Other,Asia,29,Sci-Fi,Basic,Rarely,Amazon Prime,16
+850,47,Female,Europe,19,Horror,Free,Rarely,Hulu,12
+851,48,Female,North America,19,Action,Basic,Often,Netflix,25
+852,41,Male,Africa,2,Romance,Basic,Sometimes,Amazon Prime,21
+853,26,Male,South America,15,Horror,Basic,Rarely,HBO Max,22
+854,20,Male,Africa,3,Drama,Premium,Sometimes,Amazon Prime,25
+855,48,Female,South America,11,Romance,Basic,Sometimes,Hulu,23
+856,57,Male,Asia,30,Drama,Basic,Sometimes,Netflix,27
+857,54,Male,South America,18,Sci-Fi,Free,Often,HBO Max,0
+858,53,Other,Asia,2,Romance,Premium,Often,Netflix,11
+859,41,Female,North America,32,Horror,Basic,Sometimes,HBO Max,3
+860,48,Male,South America,8,Romance,Free,Often,Netflix,10
+861,23,Male,Africa,22,Sci-Fi,Free,Sometimes,Hulu,4
+862,19,Other,Asia,6,Comedy,Premium,Often,HBO Max,1
+863,37,Male,Africa,12,Drama,Basic,Sometimes,Disney+,16
+864,45,Female,Europe,36,Sci-Fi,Free,Often,Netflix,7
+865,28,Female,Asia,15,Comedy,Premium,Often,Netflix,5
+866,21,Male,South America,28,Romance,Premium,Rarely,Amazon Prime,20
+867,32,Female,Asia,18,Romance,Premium,Often,HBO Max,28
+868,23,Male,Africa,2,Sci-Fi,Basic,Often,Disney+,8
+869,47,Male,North America,13,Horror,Basic,Often,Hulu,12
+870,55,Female,Asia,15,Romance,Premium,Sometimes,Amazon Prime,10
+871,19,Female,South America,20,Horror,Basic,Often,Disney+,28
+872,32,Female,Europe,29,Horror,Premium,Often,HBO Max,15
+873,28,Female,North America,29,Horror,Free,Sometimes,Disney+,15
+874,25,Male,Europe,3,Action,Basic,Often,Netflix,26
+875,43,Male,Asia,19,Comedy,Free,Rarely,Netflix,1
+876,22,Male,Africa,3,Comedy,Free,Rarely,Amazon Prime,9
+877,23,Male,Africa,14,Romance,Free,Sometimes,HBO Max,11
+878,43,Male,South America,4,Romance,Free,Sometimes,HBO Max,7
+879,21,Male,Africa,11,Horror,Premium,Sometimes,Disney+,10
+880,36,Male,North America,31,Action,Free,Rarely,Amazon Prime,29
+881,37,Male,Africa,32,Horror,Basic,Often,HBO Max,9
+882,50,Female,South America,27,Action,Premium,Rarely,Netflix,12
+883,37,Female,Asia,30,Horror,Basic,Rarely,Disney+,24
+884,29,Male,Asia,2,Drama,Free,Rarely,Hulu,16
+885,18,Other,Africa,9,Drama,Premium,Sometimes,Netflix,6
+886,43,Female,Europe,28,Sci-Fi,Basic,Often,Amazon Prime,23
+887,31,Male,Asia,31,Horror,Premium,Sometimes,HBO Max,2
+888,55,Female,Africa,34,Romance,Premium,Often,Netflix,29
+889,54,Female,South America,15,Comedy,Premium,Rarely,Hulu,19
+890,28,Female,Africa,25,Sci-Fi,Basic,Sometimes,Hulu,12
+891,53,Male,Asia,36,Romance,Basic,Sometimes,Amazon Prime,18
+892,30,Female,South America,8,Drama,Basic,Sometimes,Netflix,6
+893,20,Male,Africa,9,Horror,Free,Rarely,Disney+,8
+894,50,Female,North America,37,Sci-Fi,Premium,Sometimes,Netflix,18
+895,23,Female,South America,39,Horror,Free,Sometimes,Hulu,12
+896,27,Female,North America,32,Drama,Basic,Often,Amazon Prime,21
+897,22,Female,Europe,17,Sci-Fi,Premium,Sometimes,Amazon Prime,7
+898,40,Female,South America,35,Drama,Basic,Rarely,Disney+,21
+899,27,Male,North America,37,Action,Basic,Sometimes,Amazon Prime,17
+900,19,Male,Asia,19,Drama,Basic,Rarely,Amazon Prime,28
+901,30,Female,Asia,29,Horror,Premium,Often,Amazon Prime,22
+902,57,Male,Europe,7,Comedy,Basic,Sometimes,Amazon Prime,1
+903,19,Male,South America,28,Drama,Premium,Rarely,Amazon Prime,17
+904,37,Male,South America,9,Romance,Free,Often,Hulu,17
+905,18,Male,South America,28,Comedy,Premium,Sometimes,Netflix,10
+906,54,Other,Europe,6,Action,Premium,Rarely,HBO Max,0
+907,26,Female,South America,29,Sci-Fi,Free,Sometimes,Amazon Prime,13
+908,34,Other,Asia,17,Sci-Fi,Basic,Sometimes,HBO Max,15
+909,26,Female,North America,16,Comedy,Free,Often,HBO Max,10
+910,28,Female,Asia,23,Sci-Fi,Premium,Often,Hulu,0
+911,32,Male,Asia,31,Drama,Basic,Often,Amazon Prime,29
+912,41,Female,North America,3,Comedy,Basic,Sometimes,HBO Max,6
+913,55,Male,Asia,21,Horror,Free,Sometimes,Amazon Prime,28
+914,52,Female,Europe,26,Drama,Free,Often,Disney+,15
+915,47,Female,North America,36,Drama,Free,Rarely,Disney+,29
+916,48,Male,Asia,37,Drama,Basic,Sometimes,Disney+,13
+917,22,Other,Africa,22,Horror,Basic,Sometimes,HBO Max,14
+918,31,Female,Asia,12,Action,Premium,Rarely,Disney+,13
+919,28,Female,Europe,13,Romance,Basic,Sometimes,Hulu,27
+920,26,Male,South America,11,Sci-Fi,Basic,Often,Hulu,20
+921,51,Female,Asia,16,Comedy,Premium,Often,HBO Max,10
+922,29,Female,South America,8,Action,Premium,Rarely,Amazon Prime,15
+923,52,Male,Africa,2,Comedy,Premium,Rarely,Netflix,18
+924,52,Male,Asia,30,Sci-Fi,Basic,Sometimes,Amazon Prime,16
+925,18,Female,North America,30,Horror,Free,Often,Amazon Prime,26
+926,57,Male,South America,12,Drama,Free,Rarely,Amazon Prime,25
+927,39,Female,Africa,10,Drama,Premium,Often,Amazon Prime,5
+928,46,Other,North America,11,Horror,Free,Rarely,Netflix,10
+929,25,Female,North America,15,Action,Basic,Sometimes,Disney+,16
+930,28,Male,North America,16,Action,Basic,Sometimes,Amazon Prime,8
+931,58,Female,North America,17,Comedy,Basic,Often,Hulu,17
+932,54,Male,Asia,26,Horror,Basic,Sometimes,HBO Max,16
+933,31,Male,Asia,2,Action,Free,Sometimes,HBO Max,11
+934,47,Female,Asia,12,Horror,Basic,Sometimes,Hulu,22
+935,52,Male,Africa,26,Sci-Fi,Basic,Often,Amazon Prime,21
+936,38,Male,Africa,23,Drama,Premium,Often,Netflix,21
+937,54,Female,Africa,18,Drama,Premium,Rarely,Disney+,29
+938,22,Male,Europe,32,Drama,Premium,Often,HBO Max,4
+939,36,Male,Africa,38,Horror,Premium,Sometimes,Disney+,10
+940,31,Female,Asia,3,Horror,Basic,Rarely,Netflix,3
+941,43,Female,Asia,38,Comedy,Free,Sometimes,HBO Max,26
+942,21,Female,Europe,3,Drama,Basic,Rarely,Disney+,3
+943,42,Male,Europe,30,Comedy,Basic,Often,Netflix,2
+944,59,Male,Africa,1,Drama,Basic,Often,Disney+,25
+945,42,Male,South America,30,Comedy,Basic,Rarely,Amazon Prime,23
+946,35,Male,Europe,32,Comedy,Basic,Sometimes,Netflix,22
+947,57,Female,North America,28,Sci-Fi,Basic,Often,Disney+,24
+948,25,Male,Asia,21,Comedy,Basic,Often,Amazon Prime,16
+949,56,Male,North America,13,Horror,Free,Sometimes,Amazon Prime,6
+950,57,Female,Asia,27,Comedy,Premium,Often,Netflix,25
+951,31,Female,Asia,36,Drama,Free,Sometimes,Hulu,3
+952,49,Female,Europe,7,Comedy,Free,Sometimes,HBO Max,22
+953,55,Male,Europe,22,Action,Basic,Often,Netflix,12
+954,50,Male,North America,10,Romance,Basic,Sometimes,Amazon Prime,11
+955,40,Male,Asia,39,Drama,Basic,Sometimes,Amazon Prime,0
+956,32,Male,North America,15,Action,Free,Sometimes,Netflix,20
+957,50,Female,South America,15,Drama,Basic,Often,Hulu,18
+958,42,Female,North America,4,Horror,Basic,Often,HBO Max,20
+959,34,Female,Africa,32,Romance,Premium,Sometimes,Disney+,19
+960,50,Female,North America,23,Romance,Premium,Sometimes,Netflix,17
+961,19,Male,Africa,6,Horror,Basic,Sometimes,HBO Max,10
+962,31,Female,Africa,24,Romance,Basic,Sometimes,HBO Max,19
+963,57,Male,Africa,20,Horror,Premium,Sometimes,Amazon Prime,2
+964,57,Female,South America,37,Action,Free,Often,Disney+,28
+965,56,Female,North America,20,Sci-Fi,Basic,Sometimes,Netflix,16
+966,23,Male,North America,12,Drama,Basic,Sometimes,Amazon Prime,11
+967,23,Male,South America,33,Horror,Premium,Rarely,Amazon Prime,9
+968,20,Other,Asia,28,Drama,Free,Sometimes,Hulu,7
+969,24,Male,Europe,8,Action,Basic,Often,HBO Max,14
+970,25,Male,North America,1,Sci-Fi,Premium,Sometimes,Netflix,4
+971,59,Male,Europe,37,Action,Basic,Rarely,Netflix,3
+972,32,Female,South America,22,Romance,Free,Sometimes,Netflix,25
+973,46,Female,Asia,6,Drama,Premium,Sometimes,Amazon Prime,27
+974,50,Female,Asia,21,Sci-Fi,Basic,Rarely,Hulu,20
+975,47,Male,Asia,32,Romance,Basic,Sometimes,Disney+,19
+976,56,Female,South America,35,Sci-Fi,Free,Sometimes,Amazon Prime,18
+977,44,Male,Africa,15,Romance,Basic,Sometimes,Disney+,20
+978,53,Female,Africa,5,Action,Basic,Sometimes,Hulu,3
+979,46,Female,Europe,6,Horror,Free,Sometimes,HBO Max,14
+980,55,Male,Africa,25,Drama,Free,Often,Netflix,16
+981,50,Male,Africa,29,Comedy,Premium,Sometimes,Disney+,11
+982,54,Male,Asia,7,Comedy,Free,Sometimes,Amazon Prime,2
+983,44,Male,Asia,13,Action,Free,Sometimes,Disney+,9
+984,50,Male,Europe,38,Drama,Basic,Sometimes,HBO Max,14
+985,21,Female,North America,18,Drama,Premium,Often,Netflix,9
+986,39,Female,Europe,2,Action,Free,Sometimes,Disney+,23
+987,19,Male,Europe,8,Drama,Basic,Often,HBO Max,22
+988,27,Male,South America,11,Horror,Free,Rarely,Amazon Prime,17
+989,22,Male,South America,33,Action,Free,Sometimes,Hulu,0
+990,27,Female,Europe,38,Horror,Free,Often,Amazon Prime,2
+991,50,Male,Europe,27,Drama,Premium,Sometimes,Netflix,20
+992,55,Female,Europe,20,Action,Free,Sometimes,Amazon Prime,25
+993,30,Female,Africa,12,Drama,Free,Sometimes,Amazon Prime,26
+994,48,Female,South America,31,Action,Basic,Often,Amazon Prime,11
+995,53,Female,Europe,27,Drama,Premium,Rarely,Amazon Prime,0
+996,41,Male,Asia,32,Horror,Free,Often,Netflix,2
+997,32,Other,Asia,10,Horror,Basic,Rarely,HBO Max,2
+998,46,Male,Africa,3,Drama,Free,Often,Disney+,4
+999,25,Male,Africa,27,Action,Basic,Sometimes,Hulu,18
+1000,22,Female,North America,35,Comedy,Basic,Often,Disney+,28

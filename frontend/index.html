@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OTT Consumer Intelligence — Audience Segmentation Lab</title>
+<meta name="description" content="An interactive exploration of OTT consumer segmentation: clustering, classification, and audience intelligence built from a real 1,000-viewer dataset.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- grain overlay -->
+<svg class="grain" aria-hidden="true">
+  <filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/></filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+</svg>
+
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">OTT<span>Intelligence</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#overview" data-sec="overview">Overview</a>
+      <a href="#audience" data-sec="audience">Audience</a>
+      <a href="#segments" data-sec="segments">Segments</a>
+      <a href="#models" data-sec="models">Models</a>
+      <a href="#explore" data-sec="explore">Explore</a>
+      <a href="#insights" data-sec="insights">Insights</a>
+      <a href="#methodology" data-sec="methodology">Methodology</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="overview">
+    <canvas id="heroCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-vignette" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow">OTT Consumer Intelligence</p>
+      <h1 class="hero-title">Who is really<br>behind the screen?</h1>
+      <p class="hero-sub">Machine learning applied to 1,000 streaming viewers — uncovering
+        behavioral patterns hiding inside watch time, spend, genre and platform choice.
+        This is a real analytics pipeline, not a mock dashboard: every number on this page
+        is computed live from the underlying dataset.</p>
+      <div class="hero-cta">
+        <a href="#segments" class="btn btn-primary">Explore the Audience</a>
+        <a href="#methodology" class="btn btn-ghost">View Methodology</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ SNAPSHOT ============ -->
+  <section class="snapshot">
+    <div class="snapshot-inner">
+      <div class="stat" data-count="1000" data-suffix="">
+        <div class="stat-num" data-target="0">0</div>
+        <div class="stat-label">Consumers Analyzed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-target="0">0</div>
+        <div class="stat-label">Behavioral Segments</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-target="0">0</div>
+        <div class="stat-label">Classification Models</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-target="0">0</div>
+        <div class="stat-label">Core Consumer Attributes</div>
+      </div>
+    </div>
+    <p class="research-note">This interactive interface is a visualization and exploration layer
+      built around an underlying OTT consumer segmentation project — the clustering, classification
+      and statistics you see were computed directly from the dataset, not authored by hand.</p>
+  </section>
+
+  <!-- ============ AUDIENCE ============ -->
+  <section class="section audience-section" id="audience">
+    <div class="section-head">
+      <p class="eyebrow">The Population</p>
+      <h2 class="section-title">Before the segments,<br>meet the audience.</h2>
+      <p class="section-sub">Every dimension below reflects the raw, cleaned dataset — pick an
+        attribute to see how it's distributed across all 1,000 viewers.</p>
+    </div>
+    <div class="audience-grid">
+      <div class="audience-tabs" id="audienceTabs"></div>
+      <div class="audience-chart-wrap">
+        <canvas id="audienceChart"></canvas>
+        <div class="audience-meta" id="audienceMeta"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEGMENTS DISCOVERY ============ -->
+  <section class="section segments-section" id="segments">
+    <div class="section-head">
+      <p class="eyebrow">Unsupervised Learning</p>
+      <h2 class="section-title">The audience isn't<br>one audience.</h2>
+      <p class="section-sub">Clustering algorithms were applied to each viewer's behavioral
+        signature — age, watch time, spending and binge frequency — to see whether distinct
+        groups emerge on their own, with no labels supplied in advance.</p>
+    </div>
+
+    <div class="algo-switch" id="algoSwitch">
+      <button data-algo="kmeans" class="algo-btn active">K-Means</button>
+      <button data-algo="hierarchical" class="algo-btn">Hierarchical</button>
+      <button data-algo="dbscan" class="algo-btn">DBSCAN</button>
+    </div>
+
+    <div class="cluster-viz-wrap">
+      <div class="cluster-viz">
+        <svg id="clusterScatter" viewBox="0 0 900 620" preserveAspectRatio="xMidYMid meet"></svg>
+        <div class="cluster-tooltip" id="clusterTooltip"></div>
+      </div>
+      <div class="cluster-side" id="clusterSide"></div>
+    </div>
+
+    <p class="algo-note" id="algoNote"></p>
+
+    <div class="segment-cards" id="segmentCards"></div>
+
+    <div class="why-segment" id="whySegment"></div>
+  </section>
+
+  <!-- ============ COMPARISON ============ -->
+  <section class="section compare-section">
+    <div class="section-head">
+      <p class="eyebrow">Side by Side</p>
+      <h2 class="section-title">Compare any two segments.</h2>
+      <p class="section-sub">Normalized against the full population average — 0 on this chart
+        means "typical viewer," the further from center, the more distinctive the segment.</p>
+    </div>
+    <div class="compare-controls" id="compareControls"></div>
+    <div class="compare-chart-wrap">
+      <svg id="radarChart" viewBox="0 0 560 560"></svg>
+      <div class="compare-legend" id="compareLegend"></div>
+    </div>
+  </section>
+
+  <!-- ============ MODEL LAB ============ -->
+  <section class="section models-section" id="models">
+    <div class="section-head">
+      <p class="eyebrow">Supervised Learning</p>
+      <h2 class="section-title">Can we predict<br>the audience?</h2>
+      <p class="section-sub" id="modelTaskDesc"></p>
+    </div>
+
+    <div class="metric-switch" id="metricSwitch">
+      <button data-metric="accuracy" class="metric-btn active">Accuracy</button>
+      <button data-metric="precision" class="metric-btn">Precision</button>
+      <button data-metric="recall" class="metric-btn">Recall</button>
+      <button data-metric="f1" class="metric-btn">F1 Score</button>
+    </div>
+
+    <div class="model-bars" id="modelBars"></div>
+    <p class="model-interpretation" id="modelInterpretation"></p>
+
+    <div class="importance-wrap">
+      <h3 class="mini-title">What drives the prediction?</h3>
+      <p class="mini-sub">Random Forest feature importance — which attributes matter most for
+        placing a viewer into a segment.</p>
+      <div class="importance-bars" id="importanceBars"></div>
+    </div>
+  </section>
+
+  <!-- ============ TRY A CONSUMER ============ -->
+  <section class="section explore-section" id="explore">
+    <div class="section-head">
+      <p class="eyebrow">Interactive Demo</p>
+      <h2 class="section-title">Try a viewer.</h2>
+      <p class="section-sub">Build a hypothetical viewer and see which behavioral segment they
+        fall into — assigned using the same scaled centroid distances the K-Means model
+        was trained on.</p>
+    </div>
+
+    <div class="try-grid">
+      <form class="try-form" id="tryForm">
+        <label>Age <span id="ageVal">30</span>
+          <input type="range" id="inAge" min="18" max="59" value="30">
+        </label>
+        <label>Weekly watch time (hrs) <span id="watchVal">20</span>
+          <input type="range" id="inWatch" min="1" max="39" value="20">
+        </label>
+        <label>Monthly spending ($) <span id="spendVal">15</span>
+          <input type="range" id="inSpend" min="0" max="29" value="15">
+        </label>
+        <label>Binge frequency
+          <select id="inBinge">
+            <option>Rarely</option><option selected>Sometimes</option><option>Often</option>
+          </select>
+        </label>
+        <button type="button" id="analyzeBtn" class="btn btn-primary full">Analyze Viewer</button>
+      </form>
+
+      <div class="try-result" id="tryResult">
+        <p class="try-placeholder">Set the sliders, then analyze — the result will appear here.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BUSINESS INSIGHTS ============ -->
+  <section class="section insights-section" id="insights">
+    <div class="section-head">
+      <p class="eyebrow">From Data to Decisions</p>
+      <h2 class="section-title">What does this mean<br>for an OTT platform?</h2>
+    </div>
+    <div class="insight-cards" id="insightCards"></div>
+  </section>
+
+  <!-- ============ METHODOLOGY ============ -->
+  <section class="section methodology-section" id="methodology">
+    <div class="section-head">
+      <p class="eyebrow">How It Was Built</p>
+      <h2 class="section-title">From raw rows<br>to segments.</h2>
+    </div>
+    <div class="pipeline" id="pipeline"></div>
+  </section>
+
+  <!-- ============ TECHNICAL ============ -->
+  <section class="section tech-section">
+    <div class="section-head">
+      <p class="eyebrow">Under the Hood</p>
+      <h2 class="section-title">Technical details.</h2>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-col">
+        <h3 class="mini-title">Data & Modeling</h3>
+        <div class="chips">
+          <span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
+          <span>K-Means</span><span>Agglomerative Clustering</span><span>DBSCAN</span>
+          <span>Random Forest</span><span>SVM</span><span>KNN</span><span>PCA</span>
+        </div>
+      </div>
+      <div class="tech-col">
+        <h3 class="mini-title">Frontend</h3>
+        <div class="chips">
+          <span>HTML5</span><span>CSS3</span><span>Vanilla JS</span><span>SVG</span><span>Canvas</span>
+        </div>
+      </div>
+      <div class="tech-col">
+        <h3 class="mini-title">Audit Findings</h3>
+        <ul class="findings" id="auditFindings"></ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">OTT<span>Intelligence</span></div>
+    <p>Built as an interactive exploration of OTT consumer behavior.</p>
+    <div class="footer-links">
+      <a href="#" id="githubLink">GitHub Repository</a>
+      <a href="#" id="portfolioLink">Portfolio</a>
+    </div>
+    <p class="footer-fine">Python · Scikit-learn · Pandas · K-Means · Random Forest · SVM · KNN</p>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
